@@ -1,3 +1,5 @@
+Do not use! Temporarily hacked to remove HTML sanitization
+
 textAngular v1.2.0
 ===========
 
