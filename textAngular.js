@@ -751,7 +751,8 @@ See README.md or https://github.com/fraywing/textAngular/wiki for requirements a
 			unsafe = unsafeElement[0].innerHTML;
 			var safe;
 			try {
-				safe = $sanitize(unsafe);
+				safe = unsafe;
+				// safe = $sanitize(unsafe);
 			} catch (e){
 				safe = oldsafe || '';
 			}
